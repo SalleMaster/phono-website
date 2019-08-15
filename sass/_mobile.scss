@@ -1,0 +1,61 @@
+@media (max-width: 600px) {
+  .navbar {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    .nav-links {
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .section-a {
+    .container {
+      grid-template-columns: 1fr;
+
+      img {
+        order: -1;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .section-b {
+    .overlay {
+      .container {
+        h3 {
+          font-size: 2rem;
+        }
+
+        h1 {
+          font-size: 3rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .section-d {
+    .container {
+      .footer {
+        grid-template-columns: 1fr 1fr;
+
+        div:first-child {
+          display: none;
+        }
+
+        div:last-child {
+          grid-column: span 2;
+        }
+      }
+    }
+  }
+}

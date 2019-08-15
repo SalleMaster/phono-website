@@ -231,3 +231,43 @@ html {
   padding: 2rem 0;
   grid-gap: 1rem;
 }
+
+@media (max-width: 600px) {
+  .navbar h2 {
+    font-size: 1.5rem;
+  }
+  .navbar .nav-links a {
+    font-size: 1rem;
+  }
+  .section-a .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .section-a .container img {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .section-a .container h1 {
+    font-size: 3rem;
+  }
+  .section-b .overlay .container h3 {
+    font-size: 2rem;
+  }
+  .section-b .overlay .container h1 {
+    font-size: 3rem;
+  }
+  .section-b .overlay .container p {
+    font-size: 1rem;
+  }
+  .section-d .container .footer {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .section-d .container .footer div:first-child {
+    display: none;
+  }
+  .section-d .container .footer div:last-child {
+    grid-column: span 2;
+  }
+}
