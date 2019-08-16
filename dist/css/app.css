@@ -264,7 +264,7 @@ html {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
-  .section-d .container .footer div:first-child {
+  .section-d .container .footer > div:first-child {
     display: none;
   }
   .section-d .container .footer div:last-child {
